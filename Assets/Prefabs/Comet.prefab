@@ -207,7 +207,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectileSpeed: 5
-  destroyDistance: 15
+  destroyDistance: 20
 --- !u!96 &2944387128842368541
 TrailRenderer:
   serializedVersion: 2
@@ -266,8 +266,17 @@ TrailRenderer:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.9166666
-        value: 0
+        time: 0.7444458
+        value: 0.012719439
+        inSlope: -0.0972162
+        outSlope: -0.0972162
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.41176546
+        outWeight: 1
+      - serializedVersion: 3
+        time: 0.927775
+        value: 0.014282227
         inSlope: 0.20571432
         outSlope: 0.20571432
         tangentMode: 0
