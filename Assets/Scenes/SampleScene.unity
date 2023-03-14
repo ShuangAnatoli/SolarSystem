@@ -267,8 +267,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d01117cfadc3146b9af2a2462a4676e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
-  speed: 0
+  target: {fileID: 509784927}
+  speed: 25
 --- !u!135 &509784924
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -472,7 +472,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 712897959}
-  speed: 0
+  speed: 20
 --- !u!114 &712897955
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -596,8 +596,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d01117cfadc3146b9af2a2462a4676e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
-  speed: 0
+  target: {fileID: 742547606}
+  speed: 24
 --- !u!114 &742547602
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -610,8 +610,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d01117cfadc3146b9af2a2462a4676e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
-  speed: 0
+  target: {fileID: 1727041031}
+  speed: 7
 --- !u!135 &742547603
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -891,7 +891,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -30}
+  m_LocalPosition: {x: 0, y: 2, z: -30}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -924,6 +924,7 @@ GameObject:
   - component: {fileID: 996396263}
   - component: {fileID: 996396262}
   - component: {fileID: 996396261}
+  - component: {fileID: 996396266}
   m_Layer: 0
   m_Name: Mercury
   m_TagString: Untagged
@@ -1021,6 +1022,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &996396266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 996396260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d01117cfadc3146b9af2a2462a4676e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1727041031}
+  speed: 48
 --- !u!1 &1186093991
 GameObject:
   m_ObjectHideFlags: 0
@@ -1052,7 +1067,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPrefab: {fileID: 5165750635359330824, guid: 6d06fc72c63ba43a9b21c00ca44b0734, type: 3}
-  spawnTime: 5
+  spawnTime: 3
 --- !u!4 &1186093993
 Transform:
   m_ObjectHideFlags: 0
@@ -1061,7 +1076,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1186093991}
   m_LocalRotation: {x: 0, y: 0.76604444, z: 0, w: 0.64278764}
-  m_LocalPosition: {x: -11, y: 0, z: 0}
+  m_LocalPosition: {x: -20, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1114,8 +1129,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d01117cfadc3146b9af2a2462a4676e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
-  speed: 0
+  target: {fileID: 1508405317}
+  speed: 30
 --- !u!114 &1508405313
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1128,8 +1143,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d01117cfadc3146b9af2a2462a4676e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
-  speed: 0
+  target: {fileID: 1727041031}
+  speed: 10
 --- !u!135 &1508405314
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1635,8 +1650,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d01117cfadc3146b9af2a2462a4676e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
-  speed: 0
+  target: {fileID: 1977875713}
+  speed: 35
 --- !u!114 &1977875709
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1649,8 +1664,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d01117cfadc3146b9af2a2462a4676e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
-  speed: 0
+  target: {fileID: 1727041031}
+  speed: 13
 --- !u!135 &1977875710
 SphereCollider:
   m_ObjectHideFlags: 0
